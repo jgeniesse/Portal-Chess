@@ -88,6 +88,39 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "PortalChess.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PortalChess.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PortalChess.Data.dll": {}
+        }
+      },
+      "PortalChess.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PortalChess.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PortalChess.Models.dll": {}
+        }
+      },
+      "PortalChess.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "PortalChess.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/PortalChess.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PortalChess.Services.dll": {}
+        }
       }
     }
   },
@@ -216,10 +249,28 @@
         "swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
+    },
+    "PortalChess.Data/1.0.0": {
+      "type": "project",
+      "path": "../PortalChess.Data/PortalChess.Data.csproj",
+      "msbuildProject": "../PortalChess.Data/PortalChess.Data.csproj"
+    },
+    "PortalChess.Models/1.0.0": {
+      "type": "project",
+      "path": "../PortalChess.Models/PortalChess.Models.csproj",
+      "msbuildProject": "../PortalChess.Models/PortalChess.Models.csproj"
+    },
+    "PortalChess.Services/1.0.0": {
+      "type": "project",
+      "path": "../PortalChess.Services/PortalChess.Services.csproj",
+      "msbuildProject": "../PortalChess.Services/PortalChess.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "PortalChess.Data >= 1.0.0",
+      "PortalChess.Models >= 1.0.0",
+      "PortalChess.Services >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -229,11 +280,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.api/PortalChess.api.csproj",
+      "projectUniqueName": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.API/PortalChess.api.csproj",
       "projectName": "PortalChess.api",
-      "projectPath": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.api/PortalChess.api.csproj",
+      "projectPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.API/PortalChess.api.csproj",
       "packagesPath": "/Users/jgeniesse/.nuget/packages/",
-      "outputPath": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.api/obj/",
+      "outputPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.API/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jgeniesse/.nuget/NuGet/NuGet.Config"
@@ -247,7 +298,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj": {
+              "projectPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj"
+            },
+            "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Models/PortalChess.Models.csproj": {
+              "projectPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Models/PortalChess.Models.csproj"
+            },
+            "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Services/PortalChess.Services.csproj": {
+              "projectPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Services/PortalChess.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

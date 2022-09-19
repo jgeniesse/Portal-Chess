@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "khYmYLpHeUA+YpplNRK7Z/34f1kMmkwPfc83ccNtKTLdF4yqG/9T4eWsy3LzJ9i2XENTa5olL1P4V81M/rX2Jg==",
+  "dgSpecHash": "uQDGENubzZNlVLbOLafYswlxhYWDhmKFei3ZR2bNB08siBEDeE5tl4KH1OWFwEn488j3rd/nMxzzVsLBM7WhVw==",
   "success": true,
-  "projectFilePath": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.api/PortalChess.api.csproj",
+  "projectFilePath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.API/PortalChess.api.csproj",
   "expectedPackageFiles": [
     "/Users/jgeniesse/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "/Users/jgeniesse/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",

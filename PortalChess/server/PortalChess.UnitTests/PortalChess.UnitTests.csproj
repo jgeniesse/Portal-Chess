@@ -21,4 +21,11 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PortalChess.API\PortalChess.API.csproj" />
+    <ProjectReference Include="..\PortalChess.Data\PortalChess.Data.csproj" />
+    <ProjectReference Include="..\PortalChess.Models\PortalChess.Models.csproj" />
+    <ProjectReference Include="..\PortalChess.Services\PortalChess.Services.csproj" />
+  </ItemGroup>
+
 </Project>

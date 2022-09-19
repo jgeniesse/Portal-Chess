@@ -6,4 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PortalChess.Models\PortalChess.Models.csproj" />
+  </ItemGroup>
 </Project>

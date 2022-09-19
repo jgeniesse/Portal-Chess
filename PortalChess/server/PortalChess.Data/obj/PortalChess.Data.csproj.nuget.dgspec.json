@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj": {}
+    "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj": {}
   },
   "projects": {
-    "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj": {
+    "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj",
+        "projectUniqueName": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj",
         "projectName": "PortalChess.Data",
-        "projectPath": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj",
+        "projectPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj",
         "packagesPath": "/Users/jgeniesse/.nuget/packages/",
-        "outputPath": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Data/obj/",
+        "outputPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Data/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jgeniesse/.nuget/NuGet/NuGet.Config"

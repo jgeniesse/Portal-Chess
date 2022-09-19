@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7ooKIHY2Fi8R/e96iH5wl/MVTn3zSTs96bFY77UyUMJmCJJzQA39IXyA14MTS0LIsTEgzm5/zKkpCJef/edEkw==",
+  "dgSpecHash": "4bcFFt7j/kO7YwGXB8KhlIhwVxOo5kdJVHmGHlEjS/CIfyISBe4D0WwlVWJmGXAG5j3Q9r1dIxa5V5MTw/eBSw==",
   "success": true,
-  "projectFilePath": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj",
+  "projectFilePath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Data/PortalChess.Data.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

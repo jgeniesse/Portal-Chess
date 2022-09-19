@@ -10,4 +10,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PortalChess.Data\PortalChess.Data.csproj" />
+    <ProjectReference Include="..\PortalChess.Models\PortalChess.Models.csproj" />
+    <ProjectReference Include="..\PortalChess.Services\PortalChess.Services.csproj" />
+  </ItemGroup>
+
 </Project>

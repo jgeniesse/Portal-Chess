@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Models/PortalChess.Models.csproj",
+      "projectUniqueName": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Models/PortalChess.Models.csproj",
       "projectName": "PortalChess.Models",
-      "projectPath": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Models/PortalChess.Models.csproj",
+      "projectPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Models/PortalChess.Models.csproj",
       "packagesPath": "/Users/jgeniesse/.nuget/packages/",
-      "outputPath": "/Users/jgeniesse/Projects/PortalChess/server/PortalChess.Models/obj/",
+      "outputPath": "/Users/jgeniesse/Projects/Portal-Chess/PortalChess/server/PortalChess.Models/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/jgeniesse/.nuget/NuGet/NuGet.Config"
